@@ -1,6 +1,6 @@
 {
-  "latest": "https://minecraft-sx.github.io/releases/sel1_0_4.msx",
-  "latest_win": "https://minecraft-sx.github.io/releases/sel1_0_4.exe",
+  "latest": "https://minecraft-sx.github.io/releases/sel1_0_4_2.msx",
+  "latest_win": "https://minecraft-sx.github.io/releases/sel1_0_4_2.exe",
   "loader": "https://minecraft-sx.github.io/releases/msx.py",
   "colab_loader": "https://minecraft-sx.github.io/releases/msx_colab.ipynb"
 }
