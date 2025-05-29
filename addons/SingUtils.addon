@@ -7,7 +7,7 @@ a_author s1ngxl4rity
 
 :auto
 download_file https://www.dropbox.com/scl/fo/bcxtqgrxlchmbgk7k2xyv/AERHNyZL3vimBx6h_Ie61k0?rlkey=4tngt1ufy4q944mqkhywpq60u&st=uupcifu3&dl=1 singu.zip
-unzip singu.zip
+exec unzip singu.zip
 exec rm singu.zip
 exec mv singutils_tool.py addons
 
