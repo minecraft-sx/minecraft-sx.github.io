@@ -1,5 +1,8 @@
 {
     "forge": {
+        "1.21.8": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.8-58.0.0/forge-1.21.8-58.0.0-installer.jar",
+        "1.21.7": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.7-57.0.3/forge-1.21.7-57.0.3-installer.jar",
+        "1.21.6": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.6-56.0.9/forge-1.21.6-56.0.9-installer.jar",
         "1.21.5": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.5-55.0.21/forge-1.21.5-55.0.21-installer.jar",
         "1.21.4": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.4-54.1.0/forge-1.21.4-54.1.0-installer.jar",
         "1.21.3": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.3-53.0.25/forge-1.21.3-53.0.25-installer.jar",
@@ -48,6 +51,9 @@
         "1.7.2": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.7.2-10.12.2.1161-mc172/forge-1.7.2-10.12.2.1161-mc172-installer.jar"
     },
     "vanilla": {
+        "1.21.8": "https://piston-data.mojang.com/v1/objects/6bce4ef400e4efaa63a13d5e6f6b500be969ef81/server.jar",
+        "1.21.7": "https://piston-data.mojang.com/v1/objects/05e4b48fbc01f0385adb74bcff9751d34552486c/server.jar",
+        "1.21.6": "https://piston-data.mojang.com/v1/objects/6e64dcabba3c01a7271b4fa6bd898483b794c59b/server.jar",
         "1.21.5": "https://piston-data.mojang.com/v1/objects/e6ec2f64e6080b9b5d9b471b291c33cc7f509733/server.jar",
         "1.21.4": "https://piston-data.mojang.com/v1/objects/4707d00eb834b446575d89a61a11b5d548d8c001/server.jar",
         "1.21.3": "https://piston-data.mojang.com/v1/objects/45810d238246d90e811d896f87b14695b7fb6839/server.jar",
@@ -115,6 +121,9 @@
         "1.7.10": "https://launcher.mojang.com/v1/objects/952438ac4e01b4d115c5fc38f891710c4941df29/server.jar"
     },
     "fabric": {
+        "1.21.8": "https://meta.fabricmc.net/v2/versions/loader/1.21.8/0.16.14/1.0.3/server/jar",
+        "1.21.7": "https://meta.fabricmc.net/v2/versions/loader/1.21.7/0.16.14/1.0.3/server/jar",
+        "1.21.6": "https://meta.fabricmc.net/v2/versions/loader/1.21.6/0.16.14/1.0.3/server/jar",
         "1.21.5": "https://meta.fabricmc.net/v2/versions/loader/1.21.5/0.16.14/1.0.3/server/jar",
         "1.21.4": "https://meta.fabricmc.net/v2/versions/loader/1.21.4/0.16.14/1.0.3/server/jar",
         "1.21.3": "https://meta.fabricmc.net/v2/versions/loader/1.21.3/0.16.9/1.0.1/server/jar",
@@ -155,42 +164,42 @@
     },
     "mohist": {
         "1.20.2": {
-            "url": "https://mohistmc.com/api/v2/projects/mohist/1.20.2/builds/167/mohist-1.20.2-167-server.jar",
+            "url": "https://api.mohistmc.com/project/mohist/1.20.2/builds/173/download",
             "forge_version": "48.1.0"
         },
         "1.20.1": {
-            "url": "https://mohistmc.com/api/v2/projects/mohist/1.20.1/builds/920/mohist-1.20.1-920-server.jar",
-            "forge_version": "47.3.12"
+            "url": "https://api.mohistmc.com/project/mohist/1.20.1/builds/216/download",
+            "forge_version": "47.4.4"
         },
         "1.19.4": {
-            "url": "https://mohistmc.com/api/v2/projects/mohist/1.19.4/builds/214/mohist-1.19.4-214-server.jar",
+            "url": "https://api.mohistmc.com/project/mohist/1.19.4/builds/100/download",
             "forge_version": "45.3.3"
         },
         "1.19.2": {
-            "url": "https://mohistmc.com/api/v2/projects/mohist/1.19.2/builds/141/mohist-1.19.2-141-server.jar",
-            "forge_version": "43.4.2"
+            "url": "https://api.mohistmc.com/project/mohist/1.19.2/builds/89/download",
+            "forge_version": "43.5.0"
         },
         "1.18.2": {
-            "url": "https://mohistmc.com/api/v2/projects/mohist/1.18.2/builds/184/mohist-1.18.2-184-server.jar",
-            "forge_version": "40.2.21"
+            "url": "https://api.mohistmc.com/project/mohist/1.18.2/builds/99/download",
+            "forge_version": "40.3.10"
         },
         "1.16.5": {
-            "url": "https://mohistmc.com/api/v2/projects/mohist/1.16.5/builds/1242/mohist-1.16.5-1242-server.jar",
+            "url": "https://api.mohistmc.com/project/mohist/1.16.5/builds/175/download",
             "forge_version": "36.2.42"
         },
         "1.12.2": {
-            "url": "https://mohistmc.com/api/v2/projects/mohist/1.12.2/builds/320/mohist-1.12.2-320-server.jar",
+            "url": "https://api.mohistmc.com/project/mohist/1.12.2/builds/143/download",
             "forge_version": "14.23.5.2860"
         },
         "1.7.10": {
-            "url": "https://mohistmc.com/api/v2/projects/mohist/1.7.10/builds/46/mohist-1.7.10-46-server.jar",
+            "url": "https://api.mohistmc.com/project/mohist/1.7.10/builds/93/download",
             "forge_version": "10.13.4.1614"
         }
     },
     "arclight": {
         "1.21.1": {
-            "url": "https://github.com/IzzelAliz/Arclight/releases/download/FeudalKings%2F1.0.0/arclight-fabric-1.21.1-1.0.0-3457560.jar",
-            "fabric_version": "0.16.10"
+            "url": "https://github.com/IzzelAliz/Arclight/releases/download/FeudalKings%2F1.0.1/arclight-fabric-1.21.1-1.0.1-8ec9529.jar",
+            "fabric_version": "0.16.14"
         },
         "1.21": {
             "url": "https://github.com/IzzelAliz/Arclight/releases/download/FeudalKings%2F1.0.0-SNAPSHOT/arclight-fabric-1.21-1.0.0-SNAPSHOT.jar",
@@ -202,7 +211,11 @@
         }
     },
     "paper": {
-        "1.21.4": "https://api.papermc.io/v2/projects/paper/versions/1.21.4/builds/231/downloads/paper-1.21.4-231.jar",
+        "1.21.8": "https://fill-data.papermc.io/v1/objects/37b7ca967d81ba06ccb7986efc7f41b9faaaca1e06b351b8b3da102d35f9574e/paper-1.21.8-6.jar",
+        "1.21.7": "https://api.papermc.io/v2/projects/paper/versions/1.21.7/builds/17/downloads/paper-1.21.7-17.jar",
+        "1.21.6": "https://api.papermc.io/v2/projects/paper/versions/1.21.6/builds/48/downloads/paper-1.21.6-48.jar",
+        "1.21.5": "https://api.papermc.io/v2/projects/paper/versions/1.21.5/builds/114/downloads/paper-1.21.5-114.jar",
+        "1.21.4": "https://api.papermc.io/v2/projects/paper/versions/1.21.4/builds/232/downloads/paper-1.21.4-232.jar",
         "1.21.3": "https://api.papermc.io/v2/projects/paper/versions/1.21.3/builds/63/downloads/paper-1.21.3-63.jar",
         "1.21.1": "https://api.papermc.io/v2/projects/paper/versions/1.21.1/builds/57/downloads/paper-1.21.1-57.jar",
         "1.21": "https://api.papermc.io/v2/projects/paper/versions/1.21/builds/130/downloads/paper-1.21-130.jar",
