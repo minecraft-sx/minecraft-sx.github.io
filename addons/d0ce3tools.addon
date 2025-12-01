@@ -1,0 +1,43 @@
+:main
+a_name d0ce3tools 
+a_version 1.0.0
+a_author d0ce3_
+
+:auto
+download_file https://d0ce3.github.io/d0ce3-Addons/megacmd/d0ce3tools.addon /tmp/d0ce3_temp.addon
+download_file https://d0ce3.github.io/d0ce3-Addons/megacmd/d0ce3_tools.py /tmp/d0ce3_temp.py
+exec mv -f /tmp/d0ce3_temp.addon addons/d0ce3tools.addon
+exec mv -f /tmp/d0ce3_temp.py addons/d0ce3_tools.py
+exec echo "✓ Addon actualizado, gracias por utilizar mi addon! \n \n \n \n |by:d0ce3|"
+
+:button crear_backup
+text Crear Backup en MEGA
+c_exec ejecutar_backup_manual()
+
+:button listar_descargar
+text Listar backups y Descargar desde MEGA
+c_exec listar_y_descargar_mega()
+
+:button gestionar_backups
+text Gestionar y Limpiar Backups
+c_exec gestionar_backups_mega()
+
+:button subir_archivo
+text Subir Archivo a MEGA
+c_exec subir_archivo_mega()
+
+:button autobackup
+text Configurar Autobackup
+c_exec toggle_autobackup()
+
+:button info_cuenta
+text Información de Cuenta MEGA
+c_exec info_cuenta_mega()
+
+:button menu_discord
+text Discord Bot (Experimental)
+c_exec menu_discord()
+
+:button actualizar_modulos
+text Actualizar Módulos(no tocar❌)
+c_exec actualizar_modulos()
