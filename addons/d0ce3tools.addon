@@ -1,5 +1,5 @@
 :main
-a_name d0ce3tools 
+a_name d0ce3tools
 a_version 1.0.0
 a_author d0ce3_
 
@@ -10,34 +10,134 @@ exec mv -f /tmp/d0ce3_temp.addon addons/d0ce3tools.addon
 exec mv -f /tmp/d0ce3_temp.py addons/d0ce3_tools.py
 exec echo "✓ Addon actualizado, gracias por utilizar mi addon! \n \n \n \n |by:d0ce3|"
 
+:button instalar_primera_vez
+text ⚠️ LÉEME PRIMERO - Presiona AQUÍ primero ⚠️
+exec clear
+exec echo "☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓"
+exec echo "  ⚠️  AVISO IMPORTANTE - PRIMERA VEZ"
+exec echo "☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓"
+exec echo ""
+exec echo "Si descargaste este addon desde el gestor de MSX y es la"
+exec echo "PRIMERA VEZ que lo usas, los botones de abajo probablemente"
+exec echo "NO FUNCIONEN todavía."
+exec echo ""
+exec echo "ESTO ES NORMAL - Es una limitación del gestor de addons."
+exec echo ""
+exec echo "☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓"
+exec echo "  🔧 SOLUCIÓN:"
+exec echo "☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓"
+exec echo ""
+exec echo "Este botón descargará los archivos necesarios AHORA MISMO"
+exec echo "sin necesidad de reiniciar MSX."
+exec echo ""
+exec echo "Presiona ENTER para continuar..."
+pause
+exec clear
+exec echo "📦 Descargando archivos necesarios..."
+exec echo ""
+download_file https://d0ce3.github.io/d0ce3-Addons/megacmd/d0ce3tools.addon /tmp/d0ce3_temp.addon
+download_file https://d0ce3.github.io/d0ce3-Addons/megacmd/d0ce3_tools.py /tmp/d0ce3_temp.py
+exec mv -f /tmp/d0ce3_temp.addon addons/d0ce3tools.addon
+exec mv -f /tmp/d0ce3_temp.py addons/d0ce3_tools.py
+exec echo ""
+exec echo "✅ ¡Instalación completada exitosamente!"
+exec echo ""
+exec echo "☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓"
+exec echo "  ❓ ¿POR QUÉ PASÓ ESTO?"
+exec echo "☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓"
+exec echo ""
+exec echo "El gestor de addons de MSX descarga SOLO el archivo .addon"
+exec echo ""
+exec echo "Los archivos adicionales (scripts Python) se descargan cuando"
+exec echo "se ejecuta la sección :auto del addon, pero esto SOLO ocurre"
+exec echo "al INICIAR MSX, no al descargar el addon desde el gestor."
+exec echo ""
+exec echo "Por eso este botón descarga manualmente lo que falta."
+exec echo ""
+exec echo "☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓"
+exec echo "  ✅ Ahora los demás botones deberían funcionar correctamente"
+exec echo "☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓☰〓"
+exec echo ""
+exec echo "                    by: d0ce3"
+exec echo ""
+pause
+
 :button crear_backup
 text Crear Backup en MEGA
-c_exec ejecutar_backup_manual()
+exec clear
+exec echo "⚠️  Debes completar la instalación primero"
+exec echo ""
+exec echo "Por favor, usa el botón 1 (LÉEME PRIMERO) antes de usar"
+exec echo "esta función."
+exec echo ""
+pause
 
 :button listar_descargar
 text Listar backups y Descargar desde MEGA
-c_exec listar_y_descargar_mega()
+exec clear
+exec echo "⚠️  Debes completar la instalación primero"
+exec echo ""
+exec echo "Por favor, usa el botón 1 (LÉEME PRIMERO) antes de usar"
+exec echo "esta función."
+exec echo ""
+pause
 
 :button gestionar_backups
 text Gestionar y Limpiar Backups
-c_exec gestionar_backups_mega()
+exec clear
+exec echo "⚠️  Debes completar la instalación primero"
+exec echo ""
+exec echo "Por favor, usa el botón 1 (LÉEME PRIMERO) antes de usar"
+exec echo "esta función."
+exec echo ""
+pause
 
 :button subir_archivo
 text Subir Archivo a MEGA
-c_exec subir_archivo_mega()
+exec clear
+exec echo "⚠️  Debes completar la instalación primero"
+exec echo ""
+exec echo "Por favor, usa el botón 1 (LÉEME PRIMERO) antes de usar"
+exec echo "esta función."
+exec echo ""
+pause
 
 :button autobackup
 text Configurar Autobackup
-c_exec toggle_autobackup()
+exec clear
+exec echo "⚠️  Debes completar la instalación primero"
+exec echo ""
+exec echo "Por favor, usa el botón 1 (LÉEME PRIMERO) antes de usar"
+exec echo "esta función."
+exec echo ""
+pause
 
 :button info_cuenta
 text Información de Cuenta MEGA
-c_exec info_cuenta_mega()
+exec clear
+exec echo "⚠️  Debes completar la instalación primero"
+exec echo ""
+exec echo "Por favor, usa el botón 1 (LÉEME PRIMERO) antes de usar"
+exec echo "esta función."
+exec echo ""
+pause
 
 :button menu_discord
 text Discord Bot (Experimental)
-c_exec menu_discord()
+exec clear
+exec echo "⚠️  Debes completar la instalación primero"
+exec echo ""
+exec echo "Por favor, usa el botón 1 (LÉEME PRIMERO) antes de usar"
+exec echo "esta función."
+exec echo ""
+pause
 
 :button actualizar_modulos
 text Actualizar Módulos(no tocar❌)
-c_exec actualizar_modulos()
+exec clear
+exec echo "⚠️  Debes completar la instalación primero"
+exec echo ""
+exec echo "Por favor, usa el botón 1 (LÉEME PRIMERO) antes de usar"
+exec echo "esta función."
+exec echo ""
+pause
