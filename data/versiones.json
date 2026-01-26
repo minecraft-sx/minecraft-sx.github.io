@@ -220,6 +220,7 @@
         }
     },
     "paper": {
+        "1.21.11": "https://fill-data.papermc.io/v1/objects/84f4283253ae7e50a25b26ef3b03d57818145534fb0c8a27925b7bae59222ba6/paper-1.21.11-99.jar",
         "1.21.10": "https://fill-data.papermc.io/v1/objects/a61a0585e203688f606ca3a649760b8ba71efca01a4af7687db5e41408ee27aa/paper-1.21.10-117.jar",
         "1.21.8": "https://fill-data.papermc.io/v1/objects/37b7ca967d81ba06ccb7986efc7f41b9faaaca1e06b351b8b3da102d35f9574e/paper-1.21.8-6.jar",
         "1.21.7": "https://api.papermc.io/v2/projects/paper/versions/1.21.7/builds/17/downloads/paper-1.21.7-17.jar",
