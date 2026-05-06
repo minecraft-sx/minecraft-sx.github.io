@@ -1,5 +1,8 @@
 {
     "forge": {
+        "26.1.2": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1.2-64.0.8/forge-26.1.2-64.0.8-installer.jar",
+        "26.1.1": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1.1-63.0.2/forge-26.1.1-63.0.2-installer.jar",
+        "26.1": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1-62.0.9/forge-26.1-62.0.9-installer.jar",
         "1.21.11": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.11-61.0.3/forge-1.21.11-61.0.3-installer.jar",
         "1.21.10": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.10-60.0.0/forge-1.21.10-60.0.0-installer.jar",
         "1.21.9": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.9-59.0.5/forge-1.21.9-59.0.5-installer.jar",
@@ -54,6 +57,9 @@
         "1.7.2": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.7.2-10.12.2.1161-mc172/forge-1.7.2-10.12.2.1161-mc172-installer.jar"
     },
     "vanilla": {
+        "26.1.2": "https://piston-data.mojang.com/v1/objects/97ccd4c0ed3f81bbb7bfacddd1090b0c56f9bc51/server.jar",
+        "26.1.1": "https://piston-data.mojang.com/v1/objects/49c8195703ad0ba4f0a4efbccfd85a4a8ca57431/server.jar",
+        "26.1": "https://piston-data.mojang.com/v1/objects/3872a7f07a1a595e651aef8b058dfc2bb3772f46/server.jar",
         "1.21.11": "https://piston-data.mojang.com/v1/objects/64bb6d763bed0a9f1d632ec347938594144943ed/server.jar",
         "1.21.10": "https://piston-data.mojang.com/v1/objects/95495a7f485eedd84ce928cef5e223b757d2f764/server.jar",
         "1.21.9": "https://piston-data.mojang.com/v1/objects/11e54c2081420a4d49db3007e66c80a22579ff2a/server.jar",
@@ -127,6 +133,9 @@
         "1.7.10": "https://launcher.mojang.com/v1/objects/952438ac4e01b4d115c5fc38f891710c4941df29/server.jar"
     },
     "fabric": {
+        "26.1.2": "https://meta.fabricmc.net/v2/versions/loader/26.1.2/0.19.2/1.1.1/server/jar",
+        "26.1.1": "https://meta.fabricmc.net/v2/versions/loader/26.1.1/0.19.2/1.1.1/server/jar",
+        "26.1": "https://meta.fabricmc.net/v2/versions/loader/26.1/0.19.2/1.1.1/server/jar",
         "1.21.11": "https://meta.fabricmc.net/v2/versions/loader/1.21.11/0.18.2/1.1.0/server/jar",
         "1.21.10": "https://meta.fabricmc.net/v2/versions/loader/1.21.10/0.18.2/1.1.0/server/jar",
         "1.21.9": "https://meta.fabricmc.net/v2/versions/loader/1.21.9/0.18.2/1.1.0/server/jar",
@@ -220,6 +229,7 @@
         }
     },
     "paper": {
+        "26.1.2": "https://fill-data.papermc.io/v1/objects/6a03b365d66c68ad0d4fe843c51183d7cdbfb20fa3d11b2423984648f4bc9e57/paper-26.1.2-60.jar",
         "1.21.11": "https://fill-data.papermc.io/v1/objects/84f4283253ae7e50a25b26ef3b03d57818145534fb0c8a27925b7bae59222ba6/paper-1.21.11-99.jar",
         "1.21.10": "https://fill-data.papermc.io/v1/objects/a61a0585e203688f606ca3a649760b8ba71efca01a4af7687db5e41408ee27aa/paper-1.21.10-117.jar",
         "1.21.8": "https://fill-data.papermc.io/v1/objects/37b7ca967d81ba06ccb7986efc7f41b9faaaca1e06b351b8b3da102d35f9574e/paper-1.21.8-6.jar",
