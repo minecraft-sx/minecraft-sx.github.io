@@ -1,0 +1,1 @@
+Aquí estarán ubicadas las versiones LTSC para SO's base Debian o que usen el PM APT.
