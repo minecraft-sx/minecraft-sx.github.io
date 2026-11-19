@@ -3,9 +3,9 @@
 
 
 
-# ================
-# MSX LAUNCHER 1.3
-# ================
+# ==================
+# MSX LAUNCHER 1.3.1
+# ==================
 # 1. Instala la extensión de Python
 # 2. Haz click al botón de arriba a la derecha (►)
 
@@ -52,7 +52,7 @@ else:C=F
 if B.name==E:A=f"{C}\\.gitignore"
 else:A='.gitignore'
 if not B.path.exists(A):
-	K='d29ya19hcmVhKi8KdGFpbHNjYWxlLWNzLwpjb21wb3Nlci4qCnJlc3BhbGRvcy8KTW9kZ2VzdC8KUHl0aG9uKi8KKi5vdXRwdXQKbXN4LnB5CnZlbmRvcgp0aGFub3MvCm1zeC5weQp0aGFub3MKYmtkaXIvCmphdmEvCiouZXhlCioubXNpCioucHljCioubXNwCioubXN4';L=J.standard_b64decode(K).decode()
+	K='d29ya19hcmVhKi8KdGFpbHNjYWxlLWNzLwpjb21wb3Nlci4qCnJlc3BhbGRvcy8KTW9kZ2VzdC8KamF2YV93aW4vClB5dGhvbiovCioub3V0cHV0Cm1zeC5weQp2ZW5kb3IKdGhhbm9zLwptc3gucHkKdGhhbm9zCmJrZGlyLwoqLmV4ZQoqLm1zaQoqLnB5YwoqLm1zcAoqLm1zeA==';L=J.standard_b64decode(K).decode()
 	with open(A,'w')as M:M.write(L)
 def N(download_path=C):
 	F='*.msx';N='https://minecraft-sx.github.io/data/links.json'
